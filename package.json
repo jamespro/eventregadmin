@@ -1,0 +1,23 @@
+{
+  "name": "eventregadmin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamespro/eventregadmin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamespro/eventregadmin/issues"
+  },
+  "homepage": "https://github.com/jamespro/eventregadmin#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
