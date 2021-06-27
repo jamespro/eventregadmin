@@ -7,6 +7,7 @@ import PostEdit from './components/PostEdit'
 import UserList from './components/UserList'
 import UserCreate from './components/UserCreate'
 import UserEdit from './components/UserEdit'
+require('dotenv').config({path:'./config/.env'})
 
 function App() {
     return (
